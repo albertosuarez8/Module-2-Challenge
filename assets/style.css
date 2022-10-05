@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: white;
+    background-color: #A7CBD9;
 }
 
 a {
@@ -41,3 +41,32 @@ header {
     height: 75%;
 }
 
+main {
+    margin: 100px 15% 0 15%;
+}
+
+#about-me {
+    height: 520px;
+    background-color: lavenderblush;
+    border: 2px solid darkblue;
+}
+
+.card-title {
+    height: 8%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#image-container {
+    height: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+#image-container img {
+    height: 100%;
+}
+
+#text-container {
+    text-align: center;
+}
