@@ -1,5 +1,6 @@
+/* Margin of 0 allowed for the header to take the entire space */
 body {
-    margin: 0px;
+    margin: 0;
     background-color: #A7CBD9;
 }
 
@@ -36,15 +37,18 @@ header {
     font-size: 17px;
 }
 
+/* Adds a white vertical line in between navigation links for better UI */
 .vertical-line {
     border-left: 2px solid white;
     height: 75%;
 }
 
+/* Margins to center the main content */
 main {
     margin: 100px 15% 0 15%;
 }
 
+/* Styles and sets the height for about-me card */
 #about-me {
     height: 520px;
     background-color: lavenderblush;
@@ -57,12 +61,14 @@ main {
     text-align: center;
 }
 
+/* Sets the height and alignment for the image */
 #image-container {
     height: 65%;
     display: flex;
     justify-content: center;
 }
 
+/* Height is set to 100% so it takes up the entire image-container */
 #image-container img {
     height: 100%;
 }
