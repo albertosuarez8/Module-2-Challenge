@@ -114,3 +114,24 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+#sub-apps {
+    margin-top: 10px;
+    display: flex;
+}
+
+#sub-apps-container {
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#sub-apps-container .sub-apps {
+    width: 50%;
+    flex-direction: column;
+}
+
+#sub-apps-container .sub-apps a img {
+    width: 100%;
+    height: auto;
+}
